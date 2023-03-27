@@ -1,0 +1,7 @@
+graphql:
+  playground:
+    mapping: /playground
+    enabled: true
+spring:
+  main:
+    allow-bean-definition-overriding: 'true'

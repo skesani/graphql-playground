@@ -1,0 +1,11 @@
+type Query {
+    #bankAccounts
+    bankAccounts(count: Int):[BankAccount]
+    bankAccount(id: ID):BankAccount
+    bankAccountsByName(name: String):[BankAccount]
+
+    #Clients
+#    clients(count: Int):[Client]
+#    clientByName(name: String):[Client]
+
+}
