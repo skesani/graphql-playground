@@ -9,11 +9,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Controller
-public class FDAPlaygroundController extends PlaygroundController {
+public class MyPlaygroundController extends PlaygroundController {
 
     private static final String _CSRF = "_csrf";
 
-    public FDAPlaygroundController(PlaygroundPropertiesConfiguration propertiesConfiguration, ObjectMapper objectMapper) {
+    public MyPlaygroundController(PlaygroundPropertiesConfiguration propertiesConfiguration, ObjectMapper objectMapper) {
         super(propertiesConfiguration, objectMapper);
         Map<String, String> headers = new HashMap<>();
         headers.put("Authorization", "Bearer testsjhajsjhabdjbjjjbn");
